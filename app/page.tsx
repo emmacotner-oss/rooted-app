@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { Article } from './api/articles/route';
 
 export default function Home() {
@@ -104,16 +105,14 @@ export default function Home() {
               key={article.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
-              <a
-                href={article.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href={`/article/${article.id}`}
                 className="block"
               >
                 {/* Category Badge */}
                 <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 text-xs font-semibold flex items-center justify-between">
                   <span>{article.category}</span>
-                  <span className="text-xs">🔗</span>
+                  <span className="text-xs">→</span>
                 </div>
 
                 <div className="p-6">
@@ -155,7 +154,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </article>
           ))}
         </div>
