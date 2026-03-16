@@ -7,18 +7,39 @@ export default function Home() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [lastUpdated, setLastUpdated] = useState<string>('');
 
   useEffect(() => {
-    fetch('/api/articles')
+    // Try to fetch fresh articles first
+    fetch('/api/update-articles')
       .then((res) => res.json())
       .then((data) => {
-        setArticles(data);
-        setLoading(false);
+        if (data.success && data.articles && data.articles.length > 0) {
+          setArticles(data.articles);
+          setLastUpdated(new Date(data.lastUpdated).toLocaleString());
+        } else {
+          // Fallback to static articles
+          return fetch('/api/articles').then(res => res.json());
+        }
+      })
+      .then((fallbackData) => {
+        if (fallbackData) {
+          setArticles(fallbackData);
+          setLastUpdated(new Date().toLocaleString());
+        }
       })
       .catch((error) => {
         console.error('Error fetching articles:', error);
-        setLoading(false);
-      });
+        // Last resort: try static articles
+        fetch('/api/articles')
+          .then((res) => res.json())
+          .then((data) => {
+            setArticles(data);
+            setLastUpdated(new Date().toLocaleString());
+          })
+          .finally(() => setLoading(false));
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   const categories = ['all', ...new Set(articles.map(a => a.category))];
@@ -47,6 +68,11 @@ export default function Home() {
             <p className="text-gray-600 text-sm md:text-base">
               Pop Culture Through a Biblical Lens 🌱
             </p>
+            {lastUpdated && (
+              <p className="text-gray-400 text-xs mt-2">
+                Last updated: {lastUpdated}
+              </p>
+            )}
           </div>
         </div>
       </header>
@@ -78,50 +104,58 @@ export default function Home() {
               key={article.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
-              {/* Category Badge */}
-              <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 text-xs font-semibold">
-                {article.category}
-              </div>
+              <a
+                href={article.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                {/* Category Badge */}
+                <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 text-xs font-semibold flex items-center justify-between">
+                  <span>{article.category}</span>
+                  <span className="text-xs">🔗</span>
+                </div>
 
-              <div className="p-6">
-                {/* Title */}
-                <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
-                  {article.title}
-                </h2>
+                <div className="p-6">
+                  {/* Title */}
+                  <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
+                    {article.title}
+                  </h2>
 
-                {/* Source */}
-                <p className="text-xs text-gray-500 mb-3 flex items-center gap-1">
-                  <span className="inline-block w-2 h-2 bg-purple-400 rounded-full"></span>
-                  {article.source}
-                </p>
+                  {/* Source */}
+                  <p className="text-xs text-gray-500 mb-3 flex items-center gap-1">
+                    <span className="inline-block w-2 h-2 bg-purple-400 rounded-full"></span>
+                    {article.source}
+                  </p>
 
-                {/* Summary */}
-                <p className="text-gray-700 text-sm mb-4 line-clamp-3">
-                  {article.summary}
-                </p>
+                  {/* Summary */}
+                  <p className="text-gray-700 text-sm mb-4 line-clamp-3">
+                    {article.summary}
+                  </p>
 
-                {/* Biblical Lesson Section */}
-                <div className="border-t border-purple-100 pt-4 mt-4 space-y-3">
-                  <div className="flex items-start gap-2">
-                    <span className="text-2xl mt-1">✨</span>
-                    <div>
-                      <h3 className="font-semibold text-purple-900 text-sm mb-1">
-                        Biblical Perspective
-                      </h3>
-                      <p className="text-gray-700 text-sm leading-relaxed">
-                        {article.biblicalLesson}
+                  {/* Biblical Lesson Section */}
+                  <div className="border-t border-purple-100 pt-4 mt-4 space-y-3">
+                    <div className="flex items-start gap-2">
+                      <span className="text-2xl mt-1">✨</span>
+                      <div>
+                        <h3 className="font-semibold text-purple-900 text-sm mb-1">
+                          Biblical Perspective
+                        </h3>
+                        <p className="text-gray-700 text-sm leading-relaxed">
+                          {article.biblicalLesson}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Bible Verse */}
+                    <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-3">
+                      <p className="text-xs font-medium text-purple-900 italic">
+                        {article.verse}
                       </p>
                     </div>
                   </div>
-
-                  {/* Bible Verse */}
-                  <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-3">
-                    <p className="text-xs font-medium text-purple-900 italic">
-                      {article.verse}
-                    </p>
-                  </div>
                 </div>
-              </div>
+              </a>
             </article>
           ))}
         </div>
