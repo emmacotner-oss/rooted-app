@@ -102,6 +102,66 @@ const articles: Article[] = [
     biblicalLesson: 'God gives us talents and passions for a purpose. Working hard, using our gifts wisely, and honoring God in our work brings fulfillment.',
     verse: 'Colossians 3:23 - "Whatever you do, work at it with all your heart, as working for the Lord."',
     category: 'Work Ethic'
+  },
+  {
+    id: '9',
+    title: 'Delroy Lindo\'s Visible Disappointment at Oscar Loss Sparks Debate',
+    summary: 'After 50 years of acting, Delroy Lindo received his first Oscar nomination for Best Supporting Actor in "Sinners." When Sean Penn won, cameras caught Lindo not clapping and remaining blank-faced. The internet is divided on whether his reaction was honest or ungracious.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/leylamohammed/delroy-lindo-oscar-loss-reaction-sean-penn-divides-fans',
+    biblicalLesson: 'We live in a culture that demands fake reactions and performative grace. But the Bible values honesty and integrity. Delroy showed disappointment because he was disappointed—that\'s human. Our worth isn\'t in awards or public approval; it\'s in being truthful before God. You don\'t owe the world a performance when you\'re hurting.',
+    verse: 'Proverbs 12:22 - "The Lord detests lying lips, but he delights in people who are trustworthy."',
+    category: 'Authenticity',
+    lastUpdated: 'March 17, 2026'
+  },
+  {
+    id: '10',
+    title: 'Leonardo DiCaprio\'s "Youthful" Look at Oscars Goes Viral',
+    summary: 'Leonardo DiCaprio showed up to the 2026 Oscars looking noticeably younger, sparking internet speculation about plastic surgery and weight loss. Turns out it was mostly just a new mustache, but the obsession with his appearance went viral.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/ellendurney/leonardo-dicaprio-new-youthful-look-2026-oscars',
+    biblicalLesson: 'Our culture is terrified of aging, treating it like failure instead of a natural part of life. But the Bible says gray hair is a crown of glory, earned through righteousness. Your value isn\'t in your youth or appearance—it\'s in being made in God\'s image. That doesn\'t fade.',
+    verse: 'Proverbs 16:31 - "Gray hair is a crown of splendor; it is attained in the way of righteousness."',
+    category: 'Self-Worth',
+    lastUpdated: 'March 17, 2026'
+  },
+  {
+    id: '11',
+    title: 'Oscars Theater Left Covered in Trash After Ceremony',
+    summary: 'A viral photo showed the Oscars theater covered in trash after the ceremony—snack packs, candy wrappers, and fancy water bottles scattered everywhere. People were shocked that some of the richest celebrities in the world left their mess for someone else to clean up.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/mjs538/oscars-trash-viral-photo',
+    biblicalLesson: 'Character isn\'t what you do when people are watching—it\'s what you do in the small, unseen moments. Jesus taught that true greatness comes from serving others, not being served. If you won\'t pick up your own trash, what does that say about your heart?',
+    verse: 'Matthew 20:26 - "Whoever wants to become great among you must be your servant."',
+    category: 'Service',
+    lastUpdated: 'March 17, 2026'
+  },
+  {
+    id: '12',
+    title: 'Kris Jenner\'s Shady Question to Influencers at Oscars Party',
+    summary: 'At the Vanity Fair Oscars after-party, Kris Jenner paused while being interviewed by two influencers and asked: "How did you get this gig?" The internet loved her accidental shade, especially as influencers increasingly replace trained journalists on red carpets.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/ellendurney/kris-jenner-shady-question-influencers-oscar-party',
+    biblicalLesson: 'Our culture has confused popularity with competence. Just because someone has followers doesn\'t mean they\'re qualified. The Bible says the wise store up knowledge—real skill matters. Are you building something real, or just chasing attention?',
+    verse: 'Proverbs 10:14 - "The wise store up knowledge, but the mouth of a fool invites ruin."',
+    category: 'Work Ethic',
+    lastUpdated: 'March 17, 2026'
+  },
+  {
+    id: '13',
+    title: 'Oscars Served "Elementary School Lunch" Snacks, Attendees Say',
+    summary: 'Despite being Hollywood\'s most glamorous night, Oscars attendees were served basic snack packs with SkinnyPop popcorn, Swedish Fish, and bottled water. People compared it to "field trip lunches" and called it embarrassing for such a high-profile event.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/leylamohammed/oscars-2026-disappointing-snacks-viral-backlash',
+    biblicalLesson: 'Hollywood is obsessed with image—the dresses, the makeup, the red carpet. But behind the scenes, the actual experience is cheap and empty. Jesus called out religious leaders for the same thing: cleaning the outside of the cup while the inside stays dirty. What happens when someone sees behind the curtain of your life?',
+    verse: 'Matthew 23:25 - "You clean the outside of the cup and dish, but inside they are full of greed and self-indulgence."',
+    category: 'Authenticity',
+    lastUpdated: 'March 17, 2026'
   }
 ];
 
