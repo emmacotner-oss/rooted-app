@@ -4,6 +4,25 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Article } from './api/articles/route';
 
+function getTimeAgo(dateString?: string): string {
+  if (!dateString) return 'Recently added';
+  
+  const date = new Date(dateString);
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+  const diffMins = Math.floor(diffMs / (1000 * 60));
+  const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} minute${diffMins > 1 ? 's' : ''} ago`;
+  if (diffHours < 24) return `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`;
+  if (diffDays === 1) return 'Yesterday';
+  if (diffDays < 7) return `${diffDays} days ago`;
+  if (diffDays < 30) return `${Math.floor(diffDays / 7)} week${Math.floor(diffDays / 7) > 1 ? 's' : ''} ago`;
+  return date.toLocaleDateString();
+}
+
 export default function Home() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
@@ -132,26 +151,12 @@ export default function Home() {
                     {article.summary}
                   </p>
 
-                  {/* Biblical Lesson Section */}
-                  <div className="border-t border-purple-100 pt-4 mt-4 space-y-3">
-                    <div className="flex items-start gap-2">
-                      <span className="text-2xl mt-1">✨</span>
-                      <div>
-                        <h3 className="font-semibold text-purple-900 text-sm mb-1">
-                          Biblical Perspective
-                        </h3>
-                        <p className="text-gray-700 text-sm leading-relaxed">
-                          {article.biblicalLesson}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Bible Verse */}
-                    <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-3">
-                      <p className="text-xs font-medium text-purple-900 italic">
-                        {article.verse}
-                      </p>
-                    </div>
+                  {/* Time Ago */}
+                  <div className="border-t border-purple-100 pt-4 mt-4">
+                    <p className="text-xs text-gray-500 flex items-center gap-1">
+                      <span className="inline-block w-1.5 h-1.5 bg-purple-400 rounded-full"></span>
+                      {getTimeAgo(article.lastUpdated)}
+                    </p>
                   </div>
                 </div>
               </Link>
