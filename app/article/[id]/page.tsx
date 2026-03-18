@@ -463,7 +463,7 @@ function getExpandedContent(id: string): ExpandedContent {
     '13': {
       detailedSummary: 'Despite being Hollywood's biggest night, filled with designer gowns and multimillion-dollar jewelry, the actual food at the 2026 Oscars was shockingly basic. Attendees were given snack packs with SkinnyPop popcorn, Swedish Fish candy, and bottled water—food that people compared to "elementary school field trip lunches." The contrast between the glamorous image presented to the world and the cheap, underwhelming reality behind the scenes sparked mockery and disappointment. It was a perfect metaphor for Hollywood itself: all image, little substance.',
       significance: 'This moment exposes the emptiness of image-obsessed culture. Hollywood spends millions on creating the illusion of perfection—the dresses, the makeup, the red carpet—but behind the curtain, the actual experience is hollow. For Christian teens bombarded with curated social media feeds and "perfect" lives, this is a powerful reminder: what looks flawless on the outside is often empty on the inside.',
-      biblicalContext: 'Jesus repeatedly called out religious leaders for this exact problem. In Matthew 23:25-26, He says, "You clean the outside of the cup and dish, but inside they are full of greed and self-indulgence. Blind Pharisee! First clean the inside of the cup and dish, and then the outside also will be clean." He was more concerned with internal integrity than external appearance. Throughout His ministry, Jesus valued authenticity, humility, and genuine faith over polished religious performance.',
+      biblicalContext: 'Jesus repeatedly called out religious leaders for this exact problem. In Matthew 23:25-26, He says, "You clean the outside of the cup and dish, but inside they are full of greed and self-indulgence. Blind Pharisee! First clean the inside of the cup and dish, and then the outside also will be clean." He was more concerned with internal integrity than external appearance. Throughout His Ministry, Jesus valued authenticity, humility, and genuine faith over polished religious performance.',
       biblicalApplication: 'God sees past the image you present to the world. He looks at your heart. You can have a perfect Instagram feed and a rotten heart. You can look like you have it all together while being empty inside. The question isn't "Do I look good to others?" but "Am I genuine before God?" Real beauty and real worth come from internal character, not external polish. Don't spend your life cleaning the outside of the cup.',
       practicalIntro: 'Here's how to pursue authenticity over image:',
       reflectionQuestions: [
@@ -471,6 +471,71 @@ function getExpandedContent(id: string): ExpandedContent {
         'What would people find if they saw behind the curtain of my life?',
         'Am I more concerned with looking good or being good?',
         'How can I invest in the things that last—character, integrity, love—instead of fleeting appearances?'
+      ]
+    },
+    '14': {
+      detailedSummary: 'When Anne Hathaway showed up to the 2026 Oscars looking different, the internet immediately jumped to plastic surgery speculation. Twitter exploded with theories about what procedures she had done. But when she revealed her "trick"—cold spoons under her eyes and strategic makeup to look more "awake"—people were shocked it was that simple. The whole episode revealed how quick we are to assume any change in appearance must be cosmetic surgery, and how much pressure women face to look perfect at all times.',
+      significance: 'This moment exposes the exhausting, impossible standards women face. If you look tired, you're criticized. If you look too good, you must have had work done. There's no winning. For Christian teen girls watching this play out, it reinforces a toxic message: your value is tied to your appearance, and you better look flawless 24/7. But is that what God cares about?',
+      biblicalContext: 'Throughout Scripture, God makes it clear that He doesn't evaluate people based on their physical appearance. When the prophet Samuel was choosing Israel's next king, he saw Jesse's tall, handsome son Eliab and assumed he must be God's choice. But God said, "Do not consider his appearance or his height, for I have rejected him. The Lord does not look at the things people look at. People look at the outward appearance, but the Lord looks at the heart" (1 Samuel 16:7).',
+      biblicalApplication: 'You were made in God's image, and that image doesn't need editing, filters, or cosmetic procedures to be valuable. God cares about your heart, your character, and your faithfulness—not whether you look camera-ready. When culture screams that your worth is tied to your appearance, God's Word quietly reminds you: you are fearfully and wonderfully made, exactly as you are.',
+      practicalIntro: 'Here's how to resist the pressure to look perfect and embrace your God-given worth:',
+      reflectionQuestions: [
+        'How much of my self-worth is tied to my appearance?',
+        'Do I spend more time working on how I look or who I'm becoming?',
+        'When I look in the mirror, do I see God's image or a list of flaws?',
+        'How can I shift my focus from external appearance to internal character?'
+      ]
+    },
+    '15': {
+      detailedSummary: 'In a culture obsessed with having the newest everything, Zendaya made a statement by rewearing her 2015 Oscars dress to the premiere of her movie "The Drama." The same gown, 11 years later. No apology, no explanation—just contentment and confidence. While fast fashion and influencer culture scream "buy new, stay relevant," Zendaya proved that being content with what you have is actually more powerful than endlessly consuming.',
+      significance: 'We live in a consumerist culture that profits from your dissatisfaction. You're told you need the latest trend, the newest phone, the next thing to be happy. But Zendaya's choice challenges that narrative. For Christian teens drowning in ads and influencer hauls, this is a countercultural reminder: contentment is a radical act. You don't need more to be enough.',
+      biblicalContext: 'The Bible has strong words about materialism and the love of money. Hebrews 13:5 says, "Keep your lives free from the love of money and be content with what you have, because God has said, 'Never will I leave you; never will I forsake you.'" Jesus warned that you can't serve both God and money (Matthew 6:24). Paul wrote that godliness with contentment is great gain (1 Timothy 6:6). The message is clear: endless consumption doesn't satisfy—only God does.',
+      biblicalApplication: 'Contentment isn't settling or giving up—it's recognizing that your worth and joy come from God, not from stuff. When you stop chasing the next purchase and start being grateful for what you have, you're freed from the trap of comparison and endless desire. This doesn't mean you can't enjoy nice things, but it means your happiness isn't dependent on them.',
+      practicalIntro: 'Here's how to cultivate contentment in a culture of consumption:',
+      reflectionQuestions: [
+        'How often do I buy something new because I actually need it versus wanting to feel better or fit in?',
+        'Do I feel jealous when I see other people's stuff, or am I genuinely happy for them?',
+        'What would change if I practiced gratitude for what I already have instead of focusing on what I don't?',
+        'How can I be generous with my resources instead of hoarding or constantly wanting more?'
+      ]
+    },
+    '16': {
+      detailedSummary: 'Chris Pratt revealed in an interview that his wife Katherine Schwarzenegger is "very old-school" and doesn't allow their kids to watch movies. The internet erupted with opinions—some praised the boundaries, others called it extreme and controlling. The debate highlighted how parenting has become a battleground where you're either too strict or too permissive, with no middle ground. Every choice is scrutinized and judged.',
+      significance: 'Parenting in today's world is incredibly hard. You're bombarded with conflicting advice, judged for every decision, and terrified of getting it wrong. For Christian teens watching their parents navigate this, or thinking about their own future families, this raises important questions: What boundaries are healthy? How do you protect kids without controlling them? And how do you parent with integrity in a culture that has strong opinions about everything?',
+      biblicalContext: 'Scripture gives parents the responsibility to guide and protect their children. Proverbs 22:6 says, "Start children off on the way they should go, and even when they are old they will not turn from it." Ephesians 6:4 instructs, "Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord." The goal isn't fear-based control or permissive neglect—it's intentional, loving guidance rooted in truth.',
+      biblicalApplication: 'Every family is different, and that's okay. God gives parents wisdom to make decisions for their kids based on their unique circumstances, values, and convictions. The point isn't whether movies are allowed or not—it's whether parents are intentionally guiding their children's hearts and minds. Boundaries aren't about control; they're about love and protection. And respecting your parents' authority, even when you don't fully understand their rules, honors God.',
+      practicalIntro: 'Here's how to navigate boundaries and family decisions with wisdom:',
+      reflectionQuestions: [
+        'Do I respect my parents' boundaries even when I don't agree with them?',
+        'Am I quick to judge other families for parenting differently than mine?',
+        'What media, entertainment, or influences am I consuming, and how are they shaping me?',
+        'How can I honor my parents' leadership while also learning to think critically and make wise choices?'
+      ]
+    },
+    '17': {
+      detailedSummary: 'Fans noticed something off about Zendaya's recent behavior around Euphoria. She didn't post the Season 3 trailer. She barely talks about the show. Combined with rumors of tension with creator Sam Levinson, people are speculating she's "checked out"—still contractually obligated to do the job, but no longer invested or passionate about it. It's sparked conversations about integrity, burnout, and what it means to keep showing up when you've mentally moved on.',
+      significance: 'This is a tension everyone faces: What do you do when a job, project, or commitment becomes draining or toxic, but you can't just walk away? Do you fake enthusiasm to keep up appearances? Or is it more honest to admit you're struggling? For Christian teens juggling school, extracurriculars, and relationships, learning how to handle burnout and disillusionment with integrity is crucial.',
+      biblicalContext: 'The Bible calls us to work with integrity, no matter what. Colossians 3:23 says, "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." This doesn't mean you're trapped in toxic situations forever, but it does mean honoring your commitments and doing your best, even when it's hard. At the same time, Scripture values honesty. Proverbs 12:22 says, "The Lord detests lying lips, but he delights in people who are trustworthy." Faking positivity when you're genuinely struggling isn't integrity—it's performance.',
+      biblicalApplication: 'God values both integrity and honesty. If you're burned out or in a situation that's no longer healthy, it's okay to acknowledge that and, when appropriate, walk away with grace. But until you do, honor your commitments and do your work well. Don't ghost, don't quietly disengage, and don't fake enthusiasm while silently resenting it. Be honest with yourself, with God, and with others about where you are.',
+      practicalIntro: 'Here's how to navigate work, commitments, and burnout with integrity:',
+      reflectionQuestions: [
+        'Am I "checked out" of any commitments right now—school, a team, a friendship—and just going through the motions?',
+        'Do I honor my commitments even when they're hard, or do I quit the moment things get difficult?',
+        'If I'm genuinely in a toxic situation, have I communicated honestly and tried to address it before walking away?',
+        'How can I balance working with integrity and recognizing when it's time to leave with grace?'
+      ]
+    },
+    '18': {
+      detailedSummary: 'On his podcast, Joe Rogan called 2026 "the most unstable year yet," citing political division, economic uncertainty, and social chaos. The clip went viral because millions of people feel the same way. The world feels like it's falling apart, and fear is everywhere. Influential voices amplify the anxiety, and the constant barrage of bad news makes it feel impossible to find peace or hope.',
+      significance: 'Fear is contagious. When trusted voices say "everything is unstable," it reinforces the anxiety that's already consuming so many people, especially teens. Mental health struggles are at an all-time high, and a constant diet of doom and panic doesn't help. For Christian teens, this raises a critical question: Where do you find peace when the world feels like it's on fire?',
+      biblicalContext: 'Jesus knew His followers would face fear and uncertainty. That's why He repeatedly told them, "Do not be afraid." In John 16:33, He said, "In this world you will have trouble. But take heart! I have overcome the world." Matthew 6:34 says, "Do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own." The world has always been broken—what's changed is how much attention we give to the chaos.',
+      biblicalApplication: 'God is still in control, even when everything feels chaotic. You can't control the world's problems, but you can control where you fix your eyes: on the news cycle, or on the God who holds all things together. This doesn't mean ignoring real issues or being naive. It means grounding yourself in truth, limiting your exposure to fear-mongering content, and choosing to trust that God's plans don't fail—even when the world feels unstable.',
+      practicalIntro: 'Here's how to find peace in an anxious, chaotic world:',
+      reflectionQuestions: [
+        'How much time do I spend consuming negative news or doomscrolling, and how does it affect my mental health?',
+        'Where do I turn when I'm anxious—social media, friends, or God?',
+        'What would change if I truly believed God is in control, even when the world feels chaotic?',
+        'How can I take action locally instead of spiraling over global problems I can't fix?'
       ]
     }
   };
@@ -717,6 +782,91 @@ function getAdditionalScriptures(id: string): Scripture[] {
         text: 'Be careful not to practice your righteousness in front of others to be seen by them.',
         context: 'God cares about who we are in private, not just public performance.'
       }
+    ],
+    '14': [
+      {
+        reference: 'Psalm 139:14',
+        text: 'I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.',
+        context: 'You are God's intentional creation—perfectly made in His image.'
+      },
+      {
+        reference: '1 Peter 3:3-4',
+        text: 'Your beauty should not come from outward adornment... Rather, it should be that of your inner self.',
+        context: 'Real beauty is internal, not external.'
+      },
+      {
+        reference: 'Proverbs 31:30',
+        text: 'Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised.',
+        context: 'Character outlasts appearance every time.'
+      }
+    ],
+    '15': [
+      {
+        reference: '1 Timothy 6:6-8',
+        text: 'Godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it.',
+        context: 'True wealth is contentment, not accumulation.'
+      },
+      {
+        reference: 'Philippians 4:11-12',
+        text: 'I have learned to be content whatever the circumstances... I have learned the secret of being content in any and every situation.',
+        context: 'Contentment is learned, not automatic—it takes practice.'
+      },
+      {
+        reference: 'Luke 12:15',
+        text: 'Watch out! Be on your guard against all kinds of greed; life does not consist in an abundance of possessions.',
+        context: 'Your life's value isn't measured by what you own.'
+      }
+    ],
+    '16': [
+      {
+        reference: 'Philippians 4:8',
+        text: 'Whatever is true, whatever is noble, whatever is right, whatever is pure... think about such things.',
+        context: 'What we consume shapes how we think—choose wisely.'
+      },
+      {
+        reference: 'Colossians 2:8',
+        text: 'See to it that no one takes you captive through hollow and deceptive philosophy, which depends on human tradition.',
+        context: 'Guard your mind against worldly philosophies that contradict God's truth.'
+      },
+      {
+        reference: 'Romans 12:2',
+        text: 'Do not conform to the pattern of this world, but be transformed by the renewing of your mind.',
+        context: 'We're called to think differently than culture—that takes intentionality.'
+      }
+    ],
+    '17': [
+      {
+        reference: 'Ecclesiastes 9:10',
+        text: 'Whatever your hand finds to do, do it with all your might.',
+        context: 'Give your best effort, even when it's hard.'
+      },
+      {
+        reference: 'Proverbs 10:9',
+        text: 'Whoever walks in integrity walks securely, but whoever takes crooked paths will be found out.',
+        context: 'Integrity means consistency—doing the right thing even when no one's watching.'
+      },
+      {
+        reference: 'Luke 16:10',
+        text: 'Whoever can be trusted with very little can also be trusted with much.',
+        context: 'How you handle small responsibilities reveals your character.'
+      }
+    ],
+    '18': [
+      {
+        reference: 'Philippians 4:6-7',
+        text: 'Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.',
+        context: 'God invites us to trade anxiety for prayer and peace.'
+      },
+      {
+        reference: 'Psalm 46:1-2',
+        text: 'God is our refuge and strength, an ever-present help in trouble. Therefore we will not fear, though the earth give way.',
+        context: 'Even when everything feels unstable, God is our anchor.'
+      },
+      {
+        reference: 'Isaiah 26:3',
+        text: 'You will keep in perfect peace those whose minds are steadfast, because they trust in you.',
+        context: 'Peace comes from fixing our minds on God, not on the chaos around us.'
+      }
     ]
   };
 
@@ -962,6 +1112,96 @@ function getPracticalSteps(id: string): PracticalStep[] {
       {
         title: 'Clean the inside of the cup',
         description: 'Work on your heart, your motives, your integrity. That's what lasts.'
+      }
+    ],
+    '14': [
+      {
+        title: 'Reject appearance obsession',
+        description: 'Stop scrolling through beauty filters and comparing yourself. Your face doesn't need fixing—it's made in God's image.'
+      },
+      {
+        title: 'Shift focus to character',
+        description: 'Invest more energy in kindness, integrity, and love than in looking perfect. That's what people remember.'
+      },
+      {
+        title: 'Set boundaries with beauty content',
+        description: 'Unfollow accounts that make you feel ugly or inadequate. Protect your mental space.'
+      },
+      {
+        title: 'Speak truth to yourself',
+        description: 'When you look in the mirror, remind yourself: "I am fearfully and wonderfully made." Believe it.'
+      }
+    ],
+    '15': [
+      {
+        title: 'Practice contentment',
+        description: 'Before buying something new, ask: Do I need this, or am I chasing a feeling? Learn to be satisfied with what you have.'
+      },
+      {
+        title: 'Buy less, choose well',
+        description: 'Invest in quality items you'll use for years instead of constantly buying cheap, trendy stuff that doesn't last.'
+      },
+      {
+        title: 'Resist FOMO shopping',
+        description: 'Just because everyone has it doesn't mean you need it. Don't let trends dictate your spending.'
+      },
+      {
+        title: 'Give generously',
+        description: 'Use your money to bless others instead of hoarding it. Generosity breaks the grip of materialism.'
+      }
+    ],
+    '16': [
+      {
+        title: 'Set intentional boundaries',
+        description: 'Decide what media, entertainment, and influences align with your values—then protect those boundaries.'
+      },
+      {
+        title: 'Don't judge other families',
+        description: 'Every family is different. What works for one might not work for another, and that's okay.'
+      },
+      {
+        title: 'Think critically about content',
+        description: 'Ask yourself: Is this making me more like Christ or pulling me away? What messages am I absorbing?'
+      },
+      {
+        title: 'Honor your parents' leadership',
+        description: 'Even if you don't agree with every rule, respect their authority and trust that they want what's best for you.'
+      }
+    ],
+    '17': [
+      {
+        title: 'Work with integrity, always',
+        description: 'Even when you're burned out or frustrated, honor your commitments and do your best work.'
+      },
+      {
+        title: 'Know when to walk away',
+        description: 'If a job, project, or relationship is genuinely toxic and no longer aligned with your values, it's okay to leave with grace.'
+      },
+      {
+        title: 'Don't fake enthusiasm',
+        description: 'Honesty honors God more than performative positivity. If you're struggling, admit it—don't pretend.'
+      },
+      {
+        title: 'Communicate honestly',
+        description: 'If you're feeling checked out, have the hard conversation. Don't ghost or quietly disengage without explanation.'
+      }
+    ],
+    '18': [
+      {
+        title: 'Limit doomscrolling',
+        description: 'Set strict limits on how much news and social media you consume. Constant negativity will destroy your peace.'
+      },
+      {
+        title: 'Focus on what you can control',
+        description: 'You can't fix the world's problems, but you can control your attitude, actions, and where you invest your energy.'
+      },
+      {
+        title: 'Ground yourself in truth',
+        description: 'Read Scripture, pray, and remind yourself daily: God is in control, and His plans don't fail—even when the world feels chaotic.'
+      },
+      {
+        title: 'Serve locally',
+        description: 'Instead of spiraling over global instability, take action in your community. Help a neighbor, volunteer, show up. Action beats anxiety.'
       }
     ]
   };

@@ -162,6 +162,66 @@ const articles: Article[] = [
     verse: 'Matthew 23:25 - "You clean the outside of the cup and dish, but inside they are full of greed and self-indulgence."',
     category: 'Authenticity',
     lastUpdated: 'March 17, 2026'
+  },
+  {
+    id: '14',
+    title: 'Anne Hathaway Sparks Plastic Surgery Rumors at Oscars',
+    summary: 'Anne Hathaway went viral at the 2026 Oscars after showing up looking noticeably different, sparking plastic surgery speculation. She later revealed her "trick" was actually just using cold spoons under her eyes and strategic makeup to look more "awake." The internet was shocked it was that simple.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/celebrity/anne-hathaway-oscars-plastic-surgery-rumors',
+    biblicalLesson: 'We live in a culture so obsessed with appearance that people assume any change means cosmetic surgery. But Anne\'s response shows something deeper: the pressure women face to look perfect all the time is exhausting. God doesn\'t care if you look "awake" or camera-ready—He cares about your heart. You were made in His image, and that image doesn\'t need editing.',
+    verse: '1 Samuel 16:7 - "The Lord does not look at the things people look at. People look at the outward appearance, but the Lord looks at the heart."',
+    category: 'Self-Worth',
+    lastUpdated: 'March 18, 2026'
+  },
+  {
+    id: '15',
+    title: 'Zendaya Rewears 2015 Oscars Dress at Movie Premiere',
+    summary: 'Zendaya showed up to the premiere of her new movie "The Drama" wearing the exact same dress she wore to the 2015 Oscars—11 years ago. In a culture obsessed with "new, new, new," people were stunned and impressed by her choice to rewear something instead of buying another designer gown.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/celebrity/zendaya-rewear-2015-oscars-dress',
+    biblicalLesson: 'Our culture screams that you need the newest trend to be valuable. But Zendaya just proved contentment is more powerful than consumption. The Bible warns that the love of money and stuff never satisfies—only God does. What if we stopped chasing "more" and started being grateful for what we already have?',
+    verse: 'Hebrews 13:5 - "Keep your lives free from the love of money and be content with what you have."',
+    category: 'Contentment',
+    lastUpdated: 'March 18, 2026'
+  },
+  {
+    id: '16',
+    title: 'Chris Pratt Says His Kids Aren\'t Allowed to Watch Movies',
+    summary: 'Chris Pratt revealed that his wife Katherine Schwarzenegger is "very old-school" and doesn\'t let their kids watch movies. The internet is divided—some praised the parenting choice, while others think it\'s extreme and controlling.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/celebrity/chris-pratt-kids-no-movies',
+    biblicalLesson: 'Culture says you\'re either too strict or too permissive with your kids—there\'s no winning. But the Bible calls parents to guard what enters their children\'s hearts and minds, not to control them out of fear but to protect them out of love. Every family is different, and that\'s okay. The goal isn\'t perfection—it\'s raising kids who know God and think critically.',
+    verse: 'Proverbs 22:6 - "Start children off on the way they should go, and even when they are old they will not turn from it."',
+    category: 'Family',
+    lastUpdated: 'March 18, 2026'
+  },
+  {
+    id: '17',
+    title: 'Zendaya\'s Euphoria Comments Spark "Checked Out" Speculation',
+    summary: 'Fans noticed that Zendaya didn\'t post the latest Euphoria Season 3 trailer and has barely talked about the show, despite it premiering in weeks. Combined with rumors of tension with creator Sam Levinson, people are speculating she\'s "checked out" and no longer invested in the project.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/celebrity/zendaya-euphoria-checked-out',
+    biblicalLesson: 'Sometimes the job you once loved becomes toxic or draining, and staying becomes dishonest to yourself and everyone around you. The Bible values integrity—doing what\'s right even when it\'s hard. If Zendaya is genuinely checked out, pretending otherwise would be fake. God calls us to honor our commitments, but also to recognize when it\'s time to walk away with grace.',
+    verse: 'Colossians 3:23 - "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."',
+    category: 'Work Ethic',
+    lastUpdated: 'March 18, 2026'
+  },
+  {
+    id: '18',
+    title: 'Joe Rogan Calls 2026 "The Most Unstable Year Yet"',
+    summary: 'Joe Rogan went viral after admitting on his podcast that 2026 feels like "the most unstable year" yet, citing political chaos, economic uncertainty, and social division. The comment resonated with millions who feel the same anxiety about the state of the world.',
+    source: 'BuzzFeed Celebrity',
+    url: '#',
+    sourceUrl: 'https://www.buzzfeed.com/celebrity/joe-rogan-2026-most-unstable-year',
+    biblicalLesson: 'Fear is contagious. When influential voices say "everything is falling apart," it amplifies anxiety. But Jesus told His followers not to be anxious about tomorrow—God is still in control. The world has always been broken; the difference is how much attention we give to the chaos. Where you fix your eyes matters: on the news cycle, or on the God who holds all things together?',
+    verse: 'Matthew 6:34 - "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."',
+    category: 'Mental Health',
+    lastUpdated: 'March 18, 2026'
   }
 ];
 
