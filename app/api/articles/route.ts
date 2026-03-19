@@ -22,8 +22,8 @@ const articles: Article[] = [
     source: 'Teen Vogue',
     url: '#',
     sourceUrl: 'https://www.teenvogue.com/story/celebrities-mental-health-awareness',
-    biblicalLesson: 'Just as these celebrities show courage in vulnerability, God calls us to cast our anxieties on Him. Mental health matters, and seeking help shows strength, not weakness.',
-    verse: '1 Peter 5:7 - "Cast all your anxiety on him because he cares for you."',
+    biblicalLesson: 'Selena and Billie are using their platforms to break the stigma around mental health—and that takes real courage. Our culture often treats struggles as weakness, but the Bible shows us that God meets us in our brokenness. Depression, anxiety, and trauma aren\'t signs you\'re failing spiritually—they\'re part of living in a fallen world. Seeking therapy or medication isn\'t a lack of faith; it\'s stewarding the body and mind God gave you. You don\'t have to "pray it away" alone.',
+    verse: '2 Corinthians 12:9 - "My grace is sufficient for you, for my power is made perfect in weakness."',
     category: 'Mental Health'
   },
   {
@@ -33,8 +33,8 @@ const articles: Article[] = [
     source: 'BuzzFeed Celebrity',
     url: '#',
     sourceUrl: 'https://www.buzzfeed.com/celebrity/body-positivity-influencers',
-    biblicalLesson: 'God created each of us uniquely and wonderfully. True beauty comes from our character and heart, not from meeting worldly standards.',
-    verse: 'Psalm 139:14 - "I praise you because I am fearfully and wonderfully made."',
+    biblicalLesson: 'The body positivity movement fights against airbrushed perfection and photoshopped lies—and that\'s good. But here\'s the deeper truth: you don\'t need to love your body to have worth. Your value isn\'t in how you look OR how you feel about how you look—it\'s in being made in God\'s image. Self-acceptance is great, but God-acceptance is better. He already sees you as fully loved, no conditions attached.',
+    verse: 'Psalm 139:14 - "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well."',
     category: 'Self-Worth'
   },
   {
@@ -44,8 +44,8 @@ const articles: Article[] = [
     source: 'Teen Vogue',
     url: '#',
     sourceUrl: 'https://www.teenvogue.com/story/young-celebrities-charity-activism',
-    biblicalLesson: 'Using our gifts and influence to serve others reflects God\'s love. Whatever talents we have, we can use them to make a positive difference.',
-    verse: 'Matthew 5:16 - "Let your light shine before others, that they may see your good deeds."',
+    biblicalLesson: 'When celebrities use their platforms for good, it\'s powerful—but let\'s be honest: it also gets them good PR. The Bible warns against doing good deeds just to be seen. Real generosity happens in secret, without the Instagram post or the press release. You don\'t need a platform to make a difference—God sees the small, hidden acts of service no one else notices. Are you serving for applause, or because you genuinely love people?',
+    verse: 'Matthew 6:3-4 - "But when you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret."',
     category: 'Service'
   },
   {
@@ -55,7 +55,7 @@ const articles: Article[] = [
     source: 'BuzzFeed Celebrity',
     url: '#',
     sourceUrl: 'https://www.buzzfeed.com/celebrity/toxic-relationship-songs',
-    biblicalLesson: 'God wants relationships built on respect, love, and mutual support. Recognizing toxic patterns and setting boundaries shows self-respect and wisdom.',
+    biblicalLesson: 'Pop songs about toxic relationships tell you to leave, boss up, and never look back—and sometimes that\'s exactly right. But here\'s the harder truth: the Bible calls us to guard our hearts BEFORE we get tangled up, not just after. If you keep choosing the same kind of person, the problem isn\'t just them—it\'s the wounds or patterns you haven\'t dealt with. Freedom isn\'t just leaving toxicity; it\'s healing so you stop attracting it.',
     verse: 'Proverbs 4:23 - "Above all else, guard your heart, for everything you do flows from it."',
     category: 'Relationships'
   },
@@ -66,7 +66,7 @@ const articles: Article[] = [
     source: 'Teen Vogue',
     url: '#',
     sourceUrl: 'https://www.teenvogue.com/story/teen-climate-activists',
-    biblicalLesson: 'God entrusted us with caring for His creation. Taking action to protect our environment is living out our role as faithful stewards.',
+    biblicalLesson: 'Teen climate activists are passionate, loud, and often angry—because they see a real problem being ignored. God gave humanity the job of stewarding creation, not exploiting it. But here\'s the tension: environmental activism can become an identity or even a kind of religion, replacing God with "saving the planet." You can care about the earth without worshiping it. Stewardship is biblical—but so is trusting that God holds the future, not us.',
     verse: 'Genesis 2:15 - "The Lord God took the man and put him in the Garden of Eden to work it and take care of it."',
     category: 'Stewardship'
   },
@@ -77,8 +77,8 @@ const articles: Article[] = [
     source: 'BuzzFeed Celebrity',
     url: '#',
     sourceUrl: 'https://www.buzzfeed.com/celebrity/cancel-culture-accountability',
-    biblicalLesson: 'While accountability matters, God calls us to forgive and allow room for growth. We can hold people responsible while still offering grace.',
-    verse: 'Colossians 3:13 - "Bear with each other and forgive one another... Forgive as the Lord forgave you."',
+    biblicalLesson: 'Cancel culture says: one mistake and you\'re done. No redemption, no second chances—just public execution and permanent exile. But Jesus literally died so people could be forgiven and start over. Accountability is biblical, but so is restoration. The question isn\'t whether someone messed up—it\'s whether they\'re willing to change. Are we building a culture of justice, or just revenge with good branding?',
+    verse: 'Colossians 3:13 - "Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you."',
     category: 'Forgiveness'
   },
   {
@@ -88,8 +88,8 @@ const articles: Article[] = [
     source: 'Teen Vogue',
     url: '#',
     sourceUrl: 'https://www.teenvogue.com/story/social-media-comparison-mental-health',
-    biblicalLesson: 'Comparison steals joy. God has a unique plan for each of us, and contentment comes from gratitude for what we have, not envy of others.',
-    verse: 'Galatians 6:4 - "Each one should test their own actions... without comparing themselves to someone else."',
+    biblicalLesson: 'Influencers admit social media wrecks their mental health—then post another perfectly curated photo an hour later. The irony is loud. Comparison doesn\'t just steal joy; it rewires your brain to believe your life only matters if it looks good online. But the Bible says to run YOUR race, not someone else\'s highlight reel. Delete the app if you need to. Your worth isn\'t measured in likes.',
+    verse: 'Galatians 6:4 - "Each one should test their own actions. Then they can take pride in themselves alone, without comparing themselves to someone else."',
     category: 'Contentment'
   },
   {
@@ -99,8 +99,8 @@ const articles: Article[] = [
     source: 'BuzzFeed Celebrity',
     url: '#',
     sourceUrl: 'https://www.buzzfeed.com/celebrity/teen-entrepreneurs-success',
-    biblicalLesson: 'God gives us talents and passions for a purpose. Working hard, using our gifts wisely, and honoring God in our work brings fulfillment.',
-    verse: 'Colossians 3:23 - "Whatever you do, work at it with all your heart, as working for the Lord."',
+    biblicalLesson: 'Teen entrepreneurs are celebrated as "hustlers" and "self-made," but let\'s be real: success stories often hide privilege, connections, or lucky timing. Hard work matters, but so does acknowledging what you were given. The Bible says every good gift comes from God—including your talents, opportunities, and yes, even your circumstances. Work hard, but stay humble. Your success isn\'t just yours.',
+    verse: 'James 1:17 - "Every good and perfect gift is from above, coming down from the Father of the heavenly lights."',
     category: 'Work Ethic'
   },
   {
