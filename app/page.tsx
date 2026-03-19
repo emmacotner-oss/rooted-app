@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { Article } from './api/articles/route';
 
 function getTimeAgo(dateString?: string): string {
@@ -124,8 +123,10 @@ export default function Home() {
               key={article.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
             >
-              <Link
+              <a
                 href={`/article/${article.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block"
               >
                 {/* Category Badge */}
@@ -159,7 +160,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </Link>
+              </a>
             </article>
           ))}
         </div>
