@@ -30,7 +30,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-2xl" role="img" aria-label="Plant emoji">🌱</span>
+            <span className="text-2xl" role="img" aria-label="Cross emoji">✝️</span>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent group-hover:from-purple-700 group-hover:to-pink-700 transition-all">
                 Rooted

@@ -87,7 +87,7 @@ export default function Home() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
         <div className="text-center">
-          <div className="text-6xl mb-4 animate-bounce">🌱</div>
+          <div className="text-6xl mb-4 animate-bounce">✨</div>
           <div className="text-2xl font-semibold text-purple-600 animate-pulse">Loading...</div>
         </div>
       </div>
@@ -102,15 +102,15 @@ export default function Home() {
       <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-16 animate-fadeIn">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <span className="text-6xl mb-4 block">🌱</span>
+            <span className="text-6xl mb-4 block">✝️</span>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Welcome to Rooted
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-95">
-              Exploring pop culture through a biblical lens
+              Pop Culture Meets Biblical Truth
             </p>
             <p className="text-lg mb-8 opacity-90">
-              Discover how God speaks through the trends, celebrities, and conversations shaping your world
+              Stay rooted in your faith while engaging with the trends, celebrities, and conversations teens are actually talking about
             </p>
 
             {/* Stats */}

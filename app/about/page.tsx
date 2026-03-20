@@ -9,12 +9,12 @@ export default function AboutPage() {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
         <div className="text-center mb-12 animate-fadeIn">
-          <span className="text-6xl mb-4 block">🌱</span>
+          <span className="text-6xl mb-4 block">🎬</span>
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
             About Rooted
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Connecting faith with the world around us through pop culture conversations
+            Where Pop Culture Meets Biblical Truth — Teen Discipleship Done Differently
           </p>
         </div>
 

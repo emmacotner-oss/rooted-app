@@ -157,10 +157,10 @@ export default function DailyInsightPage() {
 
         {/* Info Card */}
         <div className="bg-white rounded-2xl shadow-lg p-6 text-center animate-slideUp" style={{ animationDelay: '0.1s' }}>
-          <span className="text-4xl mb-3 block">🌱</span>
+          <span className="text-4xl mb-3 block">🔥</span>
           <h3 className="text-xl font-bold text-gray-900 mb-2">New Insight Daily</h3>
           <p className="text-gray-600 text-sm leading-relaxed">
-            Come back tomorrow for a fresh perspective on faith and culture. Each day brings a new opportunity to grow deeper in your walk with God.
+            Come back tomorrow for a fresh perspective on faith and culture. Each day brings a new opportunity to stay rooted in your faith while engaging with the world around you.
           </p>
         </div>
       </main>
