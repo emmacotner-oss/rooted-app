@@ -1,86 +1,81 @@
-# Quick Start Guide 🚀
+# 🚀 Quick Start: Automated News Scraper
 
-## ✅ What's Already Done
+Get the Rooted news scraper running in 5 minutes!
 
-- ✅ Next.js app created with TypeScript and Tailwind CSS
-- ✅ Homepage with article cards and biblical lessons
-- ✅ Clean, modern, teen-friendly design
-- ✅ Mobile-responsive layout
-- ✅ Category filtering system
-- ✅ 8 curated pop culture articles with biblical perspectives
-- ✅ Local git repository initialized
-- ✅ Initial commit made
+## Step 1: Environment Setup
 
-## 📋 Next Steps (5-10 minutes)
-
-### 1. Test Locally (Optional but recommended)
+Create `.env.local` file:
 
 ```bash
-cd rooted-app
+OPENAI_API_KEY=sk-your-key-here
+```
+
+Get your OpenAI key: https://platform.openai.com/api-keys
+
+## Step 2: Start Development Server
+
+```bash
 npm run dev
 ```
 
-Visit http://localhost:3000 to see the app in action!
+## Step 3: Trigger First Update
 
-### 2. Create GitHub Repository
-
-1. Go to: https://github.com/new
-2. Repository name: **rooted-app**
-3. Description: **Pop culture through a biblical lens**
-4. Public repository
-5. **DON'T** check any initialization options
-6. Click "Create repository"
-
-### 3. Push Code to GitHub
-
-Copy and run these commands:
+Open a new terminal and run:
 
 ```bash
-cd rooted-app
-git remote add origin https://github.com/emmacotner-oss/rooted-app.git
-git branch -M main
-git push -u origin main
+node scripts/test-scraper.js
 ```
 
-### 4. Deploy to Vercel
+OR visit in your browser:
+```
+http://localhost:3000/api/update-articles
+```
 
-1. Go to: https://vercel.com
-2. Sign in (use GitHub if you haven't)
-3. Click **"Add New Project"**
-4. Click **"Import"** next to `emmacotner-oss/rooted-app`
-5. Keep all default settings
-6. Click **"Deploy"**
+## Step 4: View Articles
 
-⏱️ Wait 2-3 minutes for deployment to complete.
+Visit:
+```
+http://localhost:3000/articles
+```
 
-### 5. Get Your Live URL
+Or get JSON:
+```
+http://localhost:3000/api/articles
+```
 
-Vercel will show your live URL, like:
-**https://rooted-app.vercel.app**
+## ✅ You're Done!
 
-## 🎉 Done!
+The app now:
+- ✓ Pulls CURRENT news from 5 sources
+- ✓ Generates biblical commentary with AI
+- ✓ Updates automatically (when deployed to Vercel)
+- ✓ Caches for 24 hours (saves API costs)
 
-Your app is now live and automatically deploys when you push to GitHub!
+## 🚢 Deploy to Vercel
 
-## 📝 Making Updates
+1. Push to GitHub
+2. Connect to Vercel
+3. Add `OPENAI_API_KEY` to environment variables
+4. Deploy!
+
+Cron job will run automatically daily at 8 AM UTC.
+
+## 📖 Need Help?
+
+See `NEWS_SCRAPER_README.md` for full documentation.
+
+## 🔧 Useful Commands
 
 ```bash
-# Make your changes, then:
-git add .
-git commit -m "Your update description"
-git push
+# Manual update
+curl -X POST http://localhost:3000/api/update-articles
+
+# Check cache status
+curl http://localhost:3000/api/update-articles
+
+# Clear cache
+curl -X DELETE http://localhost:3000/api/update-articles
+
+# Test scraper
+node scripts/test-scraper.js
 ```
-
-Vercel will automatically redeploy within minutes!
-
-## 💡 Future Enhancements
-
-- Add real-time news API integration
-- User authentication for saved articles
-- Comments/discussion feature
-- Daily devotional emails
-- Social media sharing
-
----
-
-Need help? Check DEPLOYMENT.md for detailed instructions!
